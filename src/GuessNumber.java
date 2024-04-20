@@ -1,7 +1,7 @@
 import javax.swing.JOptionPane;
 
 public class GuessNumber {
-    public static void main(String[] args) throws Exception {
+    public void GNgame() throws Exception {
         //generating a random number
         int number = (int) (Math.random() * 100) + 1;
 
@@ -21,7 +21,7 @@ public class GuessNumber {
             else if (guess < number){
                 JOptionPane.showMessageDialog(null, "Not quite, your guess is TOO LOW! Try again :)");
             }
-            
+
             //user guesses too high
             else {
                 JOptionPane.showMessageDialog(null, "Not quite, your guess is TOO HIGH! Try again :)");

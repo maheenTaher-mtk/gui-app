@@ -2,7 +2,7 @@
 import javax.swing.JOptionPane;
 
 public class trueOrFalse {
-    public static void main(String[] args) throws Exception {
+    public void TOFgame() throws Exception {
     //loop that breaks when the opinion is deemed true
     while (true){
         //prompt user t/f question
